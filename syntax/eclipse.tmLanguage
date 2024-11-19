@@ -1,0 +1,31 @@
+{
+  "fileTypes": [
+    ".ecl"
+  ],
+  "name": "Eclipse",
+  "scopeName": "source.ecl",
+  "patterns": [
+    {
+      "name": "keyword.control.eclipse",
+      "match": "\\b(if|else|while|for|return)\\b"
+    },
+    {
+      "name": "comment.line.eclipse",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "string.quoted.double.eclipse",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "variable.identifier.eclipse",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+    }
+  ]
+}
