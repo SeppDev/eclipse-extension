@@ -22,17 +22,17 @@
           ".ecl"
         ],
         "configuration": "./language-configuration.json",
-        "grammars": [
-          {
-            "language": "eclipse",
-            "scopeName": "source.ecl",
-            "path": "./syntax/eclipse.tmLanguage.json"
-          }
-        ],
         "icon": {
           "dark": "./icons/dark.png",
           "light": "./icons/light.png"
         }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "eclipse",
+        "scopeName": "source.ecl",
+        "path": "./syntax/ecl.tmLanguage.json"
       }
     ],
     "commands": [
